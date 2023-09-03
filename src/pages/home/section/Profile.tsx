@@ -16,7 +16,7 @@ export default function Profile() {
       "text-2xl md:text-3xl lg:text-4xl font-bold text-center font-montserrat lg:p-4 lg:pt-0 dark:text-slate-300",
   };
   return (
-    <div className="flex flex-col-reverse lg:flex-row justify-center items-center p-5 lg:min-h-[100vh]">
+    <div className="flex flex-col-reverse lg:flex-row justify-center items-center p-5 min-h-[90vh] lg:min-h-[85vh]">
       {/* left section  */}
       <div className="w-full lg:w-1/2 flex flex-col justify-center items-center gap-10">
         <div className="w-full flex flex-col justify-center items-center">
