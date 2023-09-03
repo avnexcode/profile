@@ -20,7 +20,7 @@ export default function Profile() {
       {/* left section  */}
       <div className="w-full lg:w-1/2 flex flex-col justify-center items-center gap-10">
         <div className="w-full flex flex-col justify-center items-center">
-          <span className="text-center lg:text-left w-full text-2xl lg:text-4xl font-bold lg:pl-48 p-2 dark:text-slate-300 font-oswald">
+          <span className="text-center lg:text-left w-full text-2xl lg:text-4xl font-bold lg:pl-48 p-2 text-purple-600 dark:text-purple-500 font-oswald">
             Hi There, I'm{" "}
           </span>
           <Typing config={type} />
