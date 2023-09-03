@@ -8,7 +8,7 @@ const Loader = lazy(() =>
   })
 );
 
-const Home = lazy(() => wait(3000).then(() => import("./pages/home/Home")));
+const Home = lazy(() => wait(1000).then(() => import("./pages/home/Home")));
 export default function App() {
   const documentTitle = document.title;
   window.addEventListener("blur", () => {
@@ -22,10 +22,10 @@ export default function App() {
   });
   return (
     <Suspense fallback={<Loader />}>
-      <div className="relative overflow-hidden">
-        <div className="absolute right-5 top-5">
-          <ThemeToggle />
-        </div>
+      <div className="absolute right-5 top-5 z-50">
+        <ThemeToggle />
+      </div>
+      <div className="relative overflow-hidden pb-10">
         <Home />
       </div>
     </Suspense>

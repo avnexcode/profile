@@ -14,17 +14,17 @@ export const quote: typeQuote[] = [
   {
     id: 3,
     author: "anonymous",
-    text: "Semua hanya dalam angan dan sebatas menjadi bayangan. Bagaimana pria jelata sepertiku memiliki putri yang begitu jelita.",
+    text: "Kau adalah apa yang selalu aku tulis. Dan aku adalah apa yang selalu kau lewatkan.",
   },
   {
     id: 4,
     author: "anonymous",
-    text: "Jika masih mengeluh terhadap rasa sakit atas dunia ini. Kenapa masih terus berbuat dosa yang sudah jelas neraka menjadi balasannya.",
+    text: "Yang menyakitkan dari melepaskanmu adalah kesadaran bahwa setiap langkahku hari ini adalah satu langkah yang membuatku semakin jauh darimu.",
   },
   {
     id: 5,
     author: "anonymous",
-    text: "Benar bahwa dia begitu cantik. Tapi sayang dia belum selesai dengan masalalunya.",
+    text: "Yang hingga kini sering menjadi anganku adalah kanyataan bahwa di bahagiamu sekarang sudah tidak ada aku.",
   },
   {
     id: 6,
@@ -39,12 +39,56 @@ export const quote: typeQuote[] = [
   {
     id: 8,
     author: "anonymous",
-    text: "Aku merindukanmu disetiap waktuku. Air mata tak lagi ada untuk luka baru yang menghampiri. Senyumanku telah kalah dengan kesedihan dari masa lalu. Lalu bagaimana caraku hidup dengan separuh jiwa yang telah menghilang.",
+    text: "Rindu menjadi beban disetiap waktu. Air mata tak lagi ada untuk luka baru yang menghampiri. Senyuman itu telah kalah dengan kesedihan dari masa lalu. Lalu bagaimana cara hidup dengan separuh jiwa yang telah menghilang.",
   },
   {
     id: 9,
     author: "anonymous",
-    text: "Jika ada yang lebih indah dari baris code, mungkin itu adalah hari - hariku ketika teringat dengan senyumanmu dimasa lalu.",
+    text: "Jika ada yang lebih indah dari baris code, mungkin itu adalah hari - hari ketika teringat dengan senyuman itu dimasa lalu.",
   },
- 
+  {
+    id: 10,
+    author: "anonymous",
+    text: "Aku pergi untukmu. Karena bahagiaku ketika bersamamu, ternyata tak selalu mengartikan bahagia untuk dirimu.",
+  },
+  {
+    id: 11,
+    author: "anonymous",
+    text: "Dirinya datang untuk membasahi hati dengan sendu, lalu beranjak pergi menghasilkan rindu.",
+  },
+  {
+    id: 12,
+    author: "anonymous",
+    text: "Aku mencintaimu seperti detak dan detik pada jam dinding. Jika suatu saat aku berhenti, itu hanya karena aku mati.",
+  },
+  {
+    id: 13,
+    author: "anonymous",
+    text: "Berjuang untuk dirimu, lelahku tak menjadi masalah.",
+  },
+  {
+    id: 14,
+    author: "anonymous",
+    text: "Cita - cita bukanlah pencapaian yang bisa diraih hanya dengan bermimpi.",
+  },
 ];
+
+// trashed
+
+// {
+//   id: 3,
+//   author: "anonymous",
+//   text: "Semua hanya dalam angan dan sebatas menjadi bayangan. Bagaimana pria jelata sepertiku memiliki putri yang begitu jelita.",
+// },
+
+// {
+//   id: 4,
+//   author: "anonymous",
+//   text: "Jika masih mengeluh terhadap rasa sakit atas dunia ini. Kenapa masih terus berbuat dosa yang sudah jelas neraka menjadi balasannya.",
+// },
+
+// {
+//   id: 5,
+//   author: "anonymous",
+//   text: "Benar bahwa dia begitu cantik. Tapi sayang dia belum selesai dengan masalalunya.",
+// },

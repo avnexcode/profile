@@ -44,11 +44,11 @@ export default function Gallery() {
   };
   return (
     <>
-    <div className="flex w-full justify-center items-center text-5xl py-10">
-      <h1>Hello World</h1>
-    </div>
-      <div className="lg:p-5 flex flex-col-reverse lg:flex-row lg:[&>*]:w-1/2 px-5 lg:[&>*]:px-10 justify-center items-center">
-        <div className="">
+      <div className="flex w-full justify-center items-center text-5xl py-10 dark:text-slate-300 font-poppins">
+        <h1>__________</h1>
+      </div>
+      <div className="gap-10 lg:gap-0 lg:p-5 flex flex-col-reverse lg:flex-row lg:[&>*]:w-1/2 px-5 lg:[&>*]:px-10 justify-center items-center">
+        <div className="cursor-pointer">
           <ImageSplider imageUrl={image} config={config} />
         </div>
         <div className="">

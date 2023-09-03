@@ -2,7 +2,7 @@ import "./css/Loader.css";
 export function Loader() {
   return (
     <>
-      <div id="page">
+      <div id="page" className="bg-white dark:bg-slate-700">
         <div id="container">
           <div id="ring"></div>
           <div id="ring"></div>

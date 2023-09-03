@@ -13,19 +13,19 @@ export default function Profile() {
     backSpeed: 50,
     loop: false,
     style:
-      "text-2xl lg:text-4xl font-bold text-center font-rubikIso lg:p-4 lg:pt-0 dark:text-slate-300",
+      "text-2xl lg:text-4xl font-bold text-center font-montserrat lg:p-4 lg:pt-0 dark:text-slate-300",
   };
   return (
     <div className="flex flex-col-reverse lg:flex-row justify-center items-center p-5 lg:min-h-[100vh]">
       {/* left section  */}
       <div className="w-full lg:w-1/2 flex flex-col justify-center items-center gap-10">
         <div className="w-full flex flex-col justify-center items-center">
-          <span className="text-center lg:text-left w-full text-2xl lg:text-4xl font-bold lg:pl-48 p-2 dark:text-slate-300">
+          <span className="text-center lg:text-left w-full text-2xl lg:text-4xl font-bold lg:pl-48 p-2 dark:text-slate-300 font-oswald">
             Hi There, I'm{" "}
           </span>
           <Typing config={type} />
-          <span className="text-lg lg:text-2xl font-semibold font-blackOpsOne dark:text-slate-300">
-            Mahasiswa | Pengangguran
+          <span className="text-lg lg:text-2xl font-semibold font-poppins dark:text-slate-300">
+            <span>Mahasiswa</span> | <span className="line-through text-red-500">Pengangguran</span>
           </span>
         </div>
         <div className="flex flex-col-reverse lg:flex-row justify-center gap-5 lg:gap-20 items-center w-full pt-0 lg:pt-5">

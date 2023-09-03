@@ -7,25 +7,25 @@ export default function BoxQuote() {
     const randomQuote = quote[random];
     if (randomQuote) {
       setText(randomQuote.text || "");
-      setAuthor(randomQuote.author || "");
+      // setAuthor(randomQuote.author || "");
     } else {
       // Penanganan jika data yang ditemukan adalah null
       setText("Tidak ada kutipan yang tersedia");
-      setAuthor("Penulis tidak diketahui");
+      // setAuthor("Penulis tidak diketahui");
     }
   }, []);
 
   const [text, setText] = useState("");
-  const [author, setAuthor] = useState("");
+  // const [author, setAuthor] = useState("");
 
   return (
     <>
       {/* <div className="border-b-4 border-[rgba(109,40,217)] mt-10 lg:mt-0">
         <h1 className="text-3xl">Kata - Kata Hari Ini</h1>
       </div> */}
-      <div className="flex flex-col gap-5 justify-center items-center text-center text-lg shadow-[8px_8px_0px_0px_rgba(109,40,217)] border-2 border-[rgba(109,40,217)] p-5 lg:p-10 my-5 font-poppins">
+      <div className="flex flex-col gap-5 justify-center items-center text-center text-lg shadow-[8px_8px_0px_0px_rgba(109,40,217)] border-2 border-[rgba(109,40,217)] p-5 lg:p-10 my-5 font-poppins dark:text-slate-300">
         <p>{text}</p>
-        <p>{author}</p>
+        {/* <p>{author}</p> */}
       </div>
     </>
   );
