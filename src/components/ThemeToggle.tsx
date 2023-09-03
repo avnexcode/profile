@@ -27,7 +27,12 @@ export default function ThemeToggle() {
   return (
     <>
       <div className={`checkbox-wrapper-8 tgl-${theme}`}>
-        <input type="checkbox" id="cb3-8" className={`tgl tgl-skewed`} onClick={handleThemeSwitch} />
+        <input
+          type="checkbox"
+          id="cb3-8"
+          className={`tgl tgl-skewed`}
+          onClick={handleThemeSwitch}
+        />
         <label
           htmlFor="cb3-8"
           data-tg={theme === "dark" ? "DARK" : "LIGHT"}

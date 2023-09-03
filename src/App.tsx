@@ -8,7 +8,7 @@ const Loader = lazy(() =>
   })
 );
 
-const Home = lazy(() => wait(1000).then(() => import("./pages/home/Home")));
+const Home = lazy(() => wait(1500).then(() => import("./pages/home/Home")));
 export default function App() {
   const documentTitle = document.title;
   window.addEventListener("blur", () => {

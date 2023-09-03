@@ -122,7 +122,11 @@
 
 /* Gaya untuk tema DARK */
 .checkbox-wrapper-8.tgl-dark .tgl-skewed + .tgl-btn {
-  background: #888;
+  background: #fff;
+}
+.checkbox-wrapper-8.tgl-dark .tgl-skewed + .tgl-btn:after,
+.checkbox-wrapper-8.tgl-dark .tgl-skewed + .tgl-btn:before {
+  color: #2e2b2b;
 }
 
 /* Gaya untuk tema LIGHT */

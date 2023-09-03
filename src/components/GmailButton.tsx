@@ -4,7 +4,7 @@ export default function GmailButton() {
     <>
       <a
         className="comic-button"
-        href="mailto:axnvee18@gmail.com?subject=Introduction&body=Hello%20Muhammad%20Fauzi%20Nur%20Aziz.%20I%20want%20to%20talk%20to%20you%20about%20website%20what%20i%20make."
+        href="mailto:axnvee18@gmail.com?subject=Introduction&body=Hello%20Muhammad%20Fauzi%20Nur%20Aziz."
         target="_blank"
         rel="noreferrer"
       >

@@ -48,8 +48,13 @@ export default function Gallery() {
         <h1>__________</h1>
       </div>
       <div className="gap-10 lg:gap-0 lg:p-5 flex flex-col-reverse lg:flex-row lg:[&>*]:w-1/2 px-5 lg:[&>*]:px-10 justify-center items-center">
-        <div className="cursor-pointer">
-          <ImageSplider imageUrl={image} config={config} />
+        <div className="flex flex-col justify-center items-center gap-5 lg:gap-10">
+          <h1 className="text-3xl font-oswald font-semibold lg:text-5xl text-slate-900 dark:text-slate-300">
+            Gallery
+          </h1>
+          <div className="cursor-pointer">
+            <ImageSplider imageUrl={image} config={config} />
+          </div>
         </div>
         <div className="">
           <BoxQuote />

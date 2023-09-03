@@ -1,5 +1,7 @@
 import { socialUrl } from "../../../data/social";
+
 export default function SocialMedia() {
+
   return (
     <>
       {socialUrl.map((item, index) => {
