@@ -1,0 +1,41 @@
+.comic-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 2.9rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff5252;
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px #000;
+  transition: all 0.5s ease;
+}
+
+.comic-button svg {
+  width: 30px;
+  aspect-ratio: 1/1;
+}
+
+.comic-button:hover {
+  background-color: #fff;
+  color: #ff5252;
+  border: 2px solid #ff5252;
+  box-shadow: 5px 5px 0px #ff5252;
+}
+
+.comic-button:active {
+  background-color: #fcf414;
+  box-shadow: none;
+  transform: translateY(4px);
+}
+
+@media only screen and (max-width: 600px) {
+  .comic-button {
+    padding: 4px 1.45rem;
+  }
+}
