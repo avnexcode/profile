@@ -1,0 +1,1 @@
+import{j as i}from"./index-70b30d8a.js";function r(){return i.jsx(i.Fragment,{children:i.jsx("div",{id:"page",className:"bg-white dark:bg-slate-700",children:i.jsxs("div",{id:"container",children:[i.jsx("div",{id:"ring"}),i.jsx("div",{id:"ring"}),i.jsx("div",{id:"ring"}),i.jsx("div",{id:"ring"})]})})})}export{r as Loader};
