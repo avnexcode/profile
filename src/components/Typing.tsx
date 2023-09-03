@@ -1,7 +1,7 @@
 import Typed from "react-typed";
-import { typeConfig } from "../pages/home/interface/typeInterface";
+import { typeTextTyping } from "../pages/home/interface/typeInterface";
 
-export default function Typing({ config }: { config: typeConfig }) {
+export default function Typing({ config }: { config: typeTextTyping }) {
   return (
     <>
       <Typed
