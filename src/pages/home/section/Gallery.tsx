@@ -1,10 +1,14 @@
 import ImageSplider from "../../../components/ImageSplider";
 import { typeSplider } from "../interface/typeInterface";
 import BoxQuote from "../components/BoxQuote";
-import unImg from "../../../assets/image/unimg.jpeg";
+// import unImg from "../../../assets/image/unimg.jpeg";
+import n6xcode from "../../../assets/image/gallery/n6xcode.jpg";
+import n6xcode2 from "../../../assets/image/gallery/n6xcode2.jpg";
+import kutukoding from "../../../assets/image/gallery/kutukoding.jpg";
+import kutukoding2 from "../../../assets/image/gallery/kutukoding2.jpg";
 export default function Gallery() {
   // const image = [gallery1, gallery2, gallery3, gallery4, gallery5];
-  const image = [unImg];
+  const image = [n6xcode, n6xcode2, kutukoding, kutukoding2];
   const config: typeSplider = {
     type: "loop",
     perPage: 1, // jumlah item dalam satu slider

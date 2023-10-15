@@ -21,7 +21,7 @@ export default function ImageSplider({
               className="flex items-center max-w-fit max-h-fit"
             >
               <img
-                className="blur-sm hover:blur-none w-[300px] aspect-square object-fill"
+                className="blur-sm hover:blur-none w-[300px] aspect-square object-contain sm:hover:scale-[2] hover:z-50"
                 src={item}
                 alt={`gallery`}
               />
