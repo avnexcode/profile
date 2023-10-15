@@ -29,7 +29,7 @@ export default function Profile() {
             <span className="line-through text-red-500">Pengangguran</span>
           </span>
         </div>
-        <div className="flex flex-col-reverse lg:flex-row justify-center gap-5 lg:gap-20 items-center w-full pt-0 lg:pt-5">
+        <div className="flex flex-col-reverse sm:flex-row justify-center gap-5 lg:gap-20 items-center w-full pt-0 lg:pt-5">
           <GmailButton />
           <WhatsAppButton />
         </div>
