@@ -6,9 +6,14 @@ import n6xcode from "../../../assets/image/gallery/n6xcode.jpg";
 import n6xcode2 from "../../../assets/image/gallery/n6xcode2.jpg";
 import kutukoding from "../../../assets/image/gallery/kutukoding.jpg";
 import kutukoding2 from "../../../assets/image/gallery/kutukoding2.jpg";
+import kutukoding3 from "../../../assets/image/gallery/kutukoding3.jpg";
+import kutukoding4 from "../../../assets/image/gallery/kutukoding4.jpg";
+import kutukoding5 from "../../../assets/image/gallery/kutukoding5.jpg";
+import kutukoding6 from "../../../assets/image/gallery/kutukoding6.jpg";
+import kutukoding7 from "../../../assets/image/gallery/kutukoding7.jpg";
 export default function Gallery() {
   // const image = [gallery1, gallery2, gallery3, gallery4, gallery5];
-  const image = [n6xcode, n6xcode2, kutukoding, kutukoding2];
+  const image = [n6xcode, n6xcode2, kutukoding, kutukoding2, kutukoding3, kutukoding4, kutukoding5, kutukoding6, kutukoding7];
   const config: typeSplider = {
     type: "loop",
     perPage: 1, // jumlah item dalam satu slider

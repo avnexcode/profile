@@ -16,11 +16,11 @@ export default function Profile() {
       "text-2xl md:text-3xl lg:text-4xl font-bold text-center font-montserrat lg:p-4 lg:pt-0 dark:text-slate-300",
   };
   return (
-    <div className="flex flex-col-reverse lg:flex-row justify-center items-center p-5 min-h-[90vh] lg:min-h-[85vh]">
+    <div className="flex flex-col-reverse lg:flex-row justify-center items-center p-5 min-h-[90vh] lg:min-h-[90vh]">
       {/* left section  */}
       <div className="w-full lg:w-1/2 flex flex-col justify-center items-center gap-10">
         <div className="w-full flex flex-col justify-center items-center">
-          <span className="text-center lg:text-left w-full text-2xl md:text-3xl lg:text-4xl font-bold lg:pl-48 p-2 text-purple-600 dark:text-purple-500 font-oswald">
+          <span className="text-center w-full text-2xl md:text-3xl lg:text-4xl font-bold p-2 text-purple-600 dark:text-purple-500 font-oswald">
             Hi There, I'm{" "}
           </span>
           <Typing config={type} />
@@ -28,6 +28,7 @@ export default function Profile() {
             <span>Mahasiswa</span> |{" "}
             <span className="line-through text-red-500">Pengangguran</span>
           </span>
+          <span className="font-semibold text-black dark:text-white 2xl:max-w-2xl max-w-lg text-md text-justify pt-5">I have an interest in Software Development, especially in web developer, i'm currently trying to make a career as a FullStack web developer.</span>
         </div>
         <div className="flex flex-col-reverse sm:flex-row justify-center gap-5 lg:gap-20 items-center w-full pt-0 lg:pt-5">
           <GmailButton />

@@ -13,7 +13,7 @@ export interface typeSocialMedia {
 }
 
 export interface typeQuote {
-  id: number;
+  id: string;
   author: string;
   text: string;
 }
